@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShalamanovJR - THE best car dealership in Plovdiv</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="project.css">
+    
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+        <div class="container">
+            <a href="#" class="navbar-brand fw-bold text-uppercase">Shalamanov JR <span class="text-warning">Dealer</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#portfolio" class="nav-link">Cars</a></li>
+                    <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li class="nav-item"><a href="#parts" class="nav-link">Car Parts</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="home text-center py-5 bg-dar" id="home">
+        <div class="container">
+            <h1 class="display-4 fw-bold">We Are Not The Same - <br>We Are<span class="text-warning"> Better</span>.</h1>
+            <p class="lead text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <a href="#" class="btn btn-warning fw-bold px-4 py-2">Discover Now</a>
+        </div>
+    </section>
+
+     <!-- About Section -->
+     <section id="about" class="py-5 bg-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2 class="fw-bold text-warning">About Us</h2>
+                    <p >At Shalamanov Jr Dealer, we believe in more than just selling cars; we believe in delivering unparalleled experiences. With over a decade of expertise in the automotive industry, our dealership is dedicated to offering high-quality vehicles, personalized service, and complete customer satisfaction.</p>
+                    <p >Our mission is simple: to be the trusted partner for all your car needs, whether it's purchasing, servicing, or learning more about the latest automotive trends.</p>
+                    <a href="#gallery" class="btn btn-warning px-4 py-2 mt-3">Learn More</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/about.png" class="about-img" alt="About Us">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Cars section-->
+    <section class="page-section bg-light" id="portfolio">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Cars</h2>
+                <h3 class="section-subheading text-muted py-2">Sneak Peak Of Our Beauties.</h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Car 1-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="img/audirsq8.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Audi</div>
+                            <div class="portfolio-caption-subheading text-danger fw-bold">RSQ8</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Car 2-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="img/blobid1.webp" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Mercedes</div>
+                            <div class="portfolio-caption-subheading text-danger fw-bold">AMG GT63s</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Car 3-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="img/car2.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Audi</div>
+                            <div class="portfolio-caption-subheading text-danger fw-bold">R8</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                    <!--Car 4-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="img/car3.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Audi</div>
+                            <div class="portfolio-caption-subheading text-danger fw-bold">R8 v10</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                    <!-- Car 5-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="img/sl63.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Mercedes</div>
+                            <div class="portfolio-caption-subheading text-danger fw-bold">AMG SL63</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <!-- Car 6-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="img/cls63.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Mercedes</div>
+                            <div class="portfolio-caption-subheading text-danger fw-bold">CLS63 AMG</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+      <!-- Car 1 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="close-icon.svg" alt="Close modal" class="close-icon"/></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Car details-->
+                                <h2 class="text-uppercase">Audi RSQ8</h2>
+                                <p class="item-intro text-muted">620hp.</p>
+                                <img class="img-fluid d-block mx-auto" src="img/audirsq8.jpg" alt="..." />
+                                <p>The Audi RS Q8 is a high-performance luxury SUV that combines sporty dynamics with the practicality of a spacious interior. Equipped with a powerful V8 engine, it delivers impressive acceleration while maintaining cutting-edge technology and premium comfort.</p>
+                                
+                                <button class="btn btn-primary btn-xl text-uppercase close" data-bs-dismiss="modal" type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Car 2 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="close-icon.svg" alt="Close modal"class="close-icon" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Car details-->
+                                <h2 class="text-uppercase">AMG GT63<span class="text-danger">s</span></h2>
+                                <p class="item-intro text-muted">650 hp.</p>
+                                <img class="img-fluid d-block mx-auto" src="img/blobid1.webp" alt="..." />
+                                <p>The Mercedes-AMG GT 63 S is a four-door luxury coupe that blends breathtaking performance with elegant design. Powered by a handcrafted V8 biturbo engine, it offers exhilarating acceleration, advanced aerodynamics, and cutting-edge technology for an unmatched driving experience.</p>
+                               
+                                <button class="btn btn-primary btn-xl text-uppercase close" data-bs-dismiss="modal" type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Car 3 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="close-icon.svg" alt="Close modal" class="close-icon"/></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Car details-->
+                                <h2 class="text-uppercase">Audi R8</h2>
+                                <p class="item-intro text-muted">580 hp.</p>
+                                <img class="img-fluid d-block mx-auto" src="img/car2.jpg" alt="..." />
+                                <p>The Audi R8 is a high-performance supercar renowned for its sleek design and exhilarating V10 engine. Offering precision handling and advanced quattro all-wheel drive, it delivers a thrilling driving experience both on the road and the track.</p>                                
+                                <button class="btn btn-primary btn-xl text-uppercase close" data-bs-dismiss="modal" type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Car 4 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="close-icon.svg" alt="Close modal" class="close-icon"/></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Car details-->
+                                <h2 class="text-uppercase">Audi R8 v10</h2>
+                                <p class="item-intro text-muted">550 hp.</p>
+                                <img class="img-fluid d-block mx-auto" src="img/car3.jpg" alt="..." />
+                                <p>The Audi R8 V10 is a stunning supercar powered by a naturally aspirated 5.2-liter V10 engine, delivering breathtaking performance and an unmistakable exhaust note. With its advanced quattro all-wheel drive system and precise handling, it offers an unparalleled driving experience on both road and track.</p>
+                                <button class="btn btn-primary btn-xl text-uppercase close" data-bs-dismiss="modal" type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Car 5 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="close-icon.svg" alt="Close modal"class="close-icon" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Car details-->
+                                <h2 class="text-uppercase">AMG SL63 </h2>
+                                <p class="item-intro text-muted">816 hp.</p>
+                                <img class="img-fluid d-block mx-auto" src="img/sl63.jpg" alt="..." />
+                                <p>The Mercedes-AMG SL 63 is a luxurious roadster that combines open-top elegance with track-ready performance. Powered by a handcrafted V8 biturbo engine, it offers dynamic handling, cutting-edge technology, and a thrilling driving experience.</p>
+                                <button class="btn btn-primary btn-xl text-uppercase close" data-bs-dismiss="modal" type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Car 6 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="close-icon.svg" alt="Close modal" class="close-icon" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Car details-->
+                                <h2 class="text-uppercase">CLS63 AMG</h2>
+                                <p class="item-intro text-muted">518 hp.</p>
+                                <img class="img-fluid d-block mx-auto" src="img/cls63.jpg" alt="..." />
+                                <p>The Mercedes-AMG CLS 63 is a stylish luxury coupe that merges striking design with extraordinary performance. Featuring a handcrafted V8 biturbo engine and advanced 4MATIC+ all-wheel drive, it delivers exceptional power, precision, and comfort for a premium driving experience.</p>
+                                <button class="btn btn-primary btn-xl text-uppercase close" data-bs-dismiss="modal" type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-5 bg-light">
+        <div class="text-center mb-4">
+            <span class="text-uppercase text-warning fw-bold">Showcase</span>
+            <h2 class="fw-bold">Gallery</h2>
+        </div>
+        <div class="row container mx-auto g-4">
+            <div class="col-md-4">
+                <img src="img/Leonardo_Phoenix_10_A_vintageinspired_illustration_of_Shalaman_2.jpg" class="img" alt="The cars we sell at Shalamanov Dealer">
+            </div>
+            <div class="col-md-4">
+                <img src="img/Modern flat design depicting Shalamanov Dealer in Plovdiv, Bulgaria, using light colors, simple two-dimensional shapes, stormy skies, and high tension.jpg" class="img" alt="The outside of Shalamanov Dealer">
+            </div>
+            <div class="col-md-4">
+                <img src="img/shalamanov-dealer-background.png" class="img" alt="The inside of Shalamanov Dealer">
+            </div>
+        </div>
+    </section>
+
+    <!-- Car Parts Section -->
+<section id="parts" class="py-5">
+    <div class="text-center mb-4">
+        <span class="text-uppercase text-warning fw-bold">Premium Quality</span>
+        <h2 class="fw-bold ">Car Parts</h2>
+        <p class="text-muted">Browse our collection of top-tier car parts for all makes and models.</p>
+    </div>
+    <div class="row container mx-auto g-4">
+        <!-- Part 1 -->
+        <div class="col-md-4 d-flex align-items-stretch">
+            <div class="card bg-dark text-light h-100">
+                <img src="img/engineoil.jpg" class="card-img-top" alt="Engine Oil">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Engine Oil</h5>
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, debitis!</p>
+                    <a href="#" class="btn btn-warning btn-sm mt-auto">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <!-- Part 2 -->
+        <div class="col-md-4 d-flex align-items-stretch">
+            <div class="card bg-dark text-light h-100">
+                <img src="img/filter.png" class="card-img-top" alt="Engine Filter">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Engine Filter</h5>
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#" class="btn btn-warning btn-sm mt-auto">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <!-- Part 3 -->
+        <div class="col-md-4 d-flex align-items-stretch">
+            <div class="card bg-dark text-light h-100">
+                <img src="img/turbo.webp" class="card-img-top" alt="Air Filter">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Turbo</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#" class="btn btn-warning btn-sm mt-auto">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-light py-4">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2040 ShalamanovJRDealer. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
